@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "FastAPI loan approval prediction backend"
 requires-python = ">=3.10"
 dependencies = [
-    "fastapi",
+    "fastapi[standard]",
     "uvicorn",
     "scikit-learn",
     "numpy",
